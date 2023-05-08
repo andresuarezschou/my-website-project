@@ -10,6 +10,12 @@ module.exports = {
       fontFamily:{
         burtons: "burtons",
       },
+      
+      "rules": {
+        "react/no-unescaped-entities": "off",
+        "@next/next/no-page-custom-font": "off"
+      },
+
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

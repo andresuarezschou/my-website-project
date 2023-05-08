@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="136.0043mm"
+   height="128.68979mm"
+   viewBox="0 0 136.0043 128.68979"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="logo.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.1575153"
+     inkscape:cx="315.33059"
+     inkscape:cy="138.22711"
+     inkscape:window-width="1440"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="236.71393"
+       y="117.49304"
+       width="297.18829"
+       height="57.018684"
+       id="rect1529" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.229584,-16.686241)">
+    <ellipse
+       style="fill:#800080;stroke-width:0.334015"
+       id="path677"
+       cx="100.23174"
+       cy="81.031143"
+       rx="68.002159"
+       ry="64.344902" />
+    <path
+       style="fill:#ffd42a;stroke-width:0.15146"
+       d="m 142.72033,64.62081 c 0,0 -45.698855,-13.373973 -23.34615,3.860528 22.35269,17.234499 37.1303,44.396062 5.71234,43.982442 -31.417948,-0.41363 12.41818,-3.58478 10.928,-11.44371 -1.49019,-7.858929 -26.57488,-40.535541 -30.67287,-37.364393 -4.098,3.171148 -9.934542,-8.134684 4.84308,-7.445304 14.77761,0.689381 27.19578,-0.413628 29.80359,3.860529"
+       id="path1040" />
+    <path
+       style="fill:#ffd42a;fill-opacity:1;stroke-width:0.176754"
+       d="m 53.698038,60.98646 c 31.63706,0.169517 33.012584,-2.542762 31.63706,0.169517 -1.375526,2.71228 -54.608315,41.023223 -26.685173,46.278253 27.923144,5.25504 28.060697,5.25504 28.060697,5.25504 l 4.539227,-3.8989 c 0,0 -36.176286,-3.05131 -35.350971,-7.96731 0.825314,-4.916003 40.165312,-40.51467 40.165312,-40.51467 0,0 24.34677,-12.883327 -3.851468,-9.323462 C 64.014471,54.544796 53.698038,60.98646 53.698038,60.98646 Z"
+       id="path1045" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.30467176,0,0,0.40137414,-7.67238,-16.428812)"
+       id="text1527"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Microsoft PhagsPa';-inkscape-font-specification:'Microsoft PhagsPa, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect1529);display:inline;fill:#ffd42a;fill-opacity:1"><tspan
+         x="236.71484"
+         y="141.51234"
+         id="tspan206">Andre Suarez Schou</tspan></text>
+  </g>
+</svg>

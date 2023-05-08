@@ -1,6 +1,6 @@
 import {AiFillLinkedin, AiFillYoutube, AiFillFacebook} from "react-icons/ai"
 import Image from "next/image";
-import next from "../public/next.svg"
+import logo from "../public/logo.svg"
 
 export default function Home() {
   return (
@@ -34,7 +34,7 @@ export default function Home() {
           <AiFillYoutube />
         </div>
         <div className="mx-auto">
-          <Image src={next} alt={"image of me"}/>
+          <Image src={logo} alt={"image of my logo"}/>
         </div>
       </section>
     </main>
