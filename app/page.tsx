@@ -1,4 +1,4 @@
-import {AiFillLinkedin, AiFillYoutube, AiFillFacebook} from "react-icons/ai"
+import {AiFillLinkedin, AiFillYoutube, AiFillFacebook, AiFillGithub} from "react-icons/ai"
 import Image from "next/image";
 import logo from "../public/logo.svg"
 
@@ -16,7 +16,7 @@ export default function Home() {
               <a className="bg-gradient-to-r from-cyan-500 to-teal-200 text-white px-4 rounded-md" 
               href="#"
               >
-                resume CV
+                CV
                 </a>
             </li>
           </ul>
@@ -29,11 +29,12 @@ export default function Home() {
             </p>
         </div>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-          <AiFillFacebook />
-          <AiFillLinkedin />
-          <AiFillYoutube />
+          <a href="https://www.facebook.com/suarezschou"><AiFillFacebook /></a>
+          <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
+          <a href="https://www.youtube.com/suarezschou"><AiFillYoutube /></a>
+          <a href="https://www.github.com/suarezschou"><AiFillGithub /></a>
         </div>
-        <div className="mx-auto">
+        <div className="mx-auto flex justify-center ">
           <Image src={logo} alt={"image of my logo"}/>
         </div>
       </section>
