@@ -14,7 +14,7 @@ export default function Home() {
             </li>
             <li>
               <a className="bg-gradient-to-r from-cyan-500 to-teal-200 text-white px-4 rounded-md" 
-              href="public/multimedia_curriculum.pdf"
+              href="../public/multimedia_curriculum.pdf" download target="_blank"
               >
                 CV
                 </a>
