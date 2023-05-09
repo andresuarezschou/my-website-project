@@ -14,7 +14,7 @@ export default function Home() {
             </li>
             <li>
               <a className="bg-gradient-to-r from-cyan-500 to-teal-200 text-white px-4 rounded-md" 
-              href="#"
+              href="public/multimedia_curriculum.pdf"
               >
                 CV
                 </a>
@@ -25,8 +25,9 @@ export default function Home() {
           <h2 className="text-5xl py-2 text-teal-600 font-medium">Andre Suarez Schou</h2>
           <h3 className="text-2xl py-2">web developer</h3>
           <p className="text-md py-5 leading-8 text-gray-700">
-            I enjoy npm run dev
-            </p>
+            I code applications in react js and tailwind css.
+
+          </p>
         </div>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
           <a href="https://www.facebook.com/suarezschou"><AiFillFacebook /></a>
