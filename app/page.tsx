@@ -26,8 +26,10 @@ export default function Home() {
           <h3 className="text-2xl py-2">web developer</h3>
           <p className="text-md py-5 leading-8 text-gray-700">
             I code applications in react js and tailwind css.
-
           </p>
+        </div>
+        <div>
+          <a href="https://musical-twilight-75b4a5.netlify.app/">size guide application</a>
         </div>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
           <a href="https://www.facebook.com/suarezschou"><AiFillFacebook /></a>
