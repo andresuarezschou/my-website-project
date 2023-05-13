@@ -28,7 +28,7 @@ export default function Home() {
             I code applications in react js and tailwind css.
           </p>
         </div>
-        <div>
+        <div className="text-5xl flex justify-center text-purple-800">
           <a href="https://musical-twilight-75b4a5.netlify.app/">size guide application</a>
         </div>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
