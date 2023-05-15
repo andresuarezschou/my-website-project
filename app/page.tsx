@@ -17,10 +17,10 @@ export default function Home() {
             I build web applications.
             I was introduced to HTML, CSS, and the JavaScript library react by my school.
             These days I like to use the Next.js framework and tailwind css.
-            I want to keep improving and develop some more complex applications.
+            I want to keep improving and develop some more complex applications in the future.
           </p>
         </div>
-        <div className="text-3xl flex justify-center text-purple-800 p-10">
+        <div className="text-3xl flex justify-center flex-col text-purple-800 p-10">
           <a href="https://musical-twilight-75b4a5.netlify.app/">size guide application</a>
           <a href="https://reliable-tulumba-787b60.netlify.app">food recipe application</a>
         </div>
