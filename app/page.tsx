@@ -1,6 +1,8 @@
 import {AiFillLinkedin, AiFillGithub} from "react-icons/ai"
 import Image from "next/image";
 import logo from "../public/logo.svg"
+import Lottie from "lottie-react"
+import animationData from "../assets/64110-web-development.json"
 
 
 export default function Home() {
@@ -19,12 +21,13 @@ export default function Home() {
             These days I like to use the Next.js framework and tailwind css.
             I want to keep improving and develop some more complex applications.
           </p>
+          <Lottie animationData={animationData} />
         </div>
         <div className="text-3xl flex justify-center text-purple-800 p-10">
           <a href="https://musical-twilight-75b4a5.netlify.app/">size guide application</a>
           <a href="https://reliable-tulumba-787b60.netlify.app">food recipe application</a>
         </div>
-        <div className="text-5xl flex justify-between py-5 text-blue-600">
+        <div className="text-5xl flex-col leading-10 py-5 text-blue-600">
           <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
           <a href="https://www.github.com/suarezschou"><AiFillGithub /></a>
         </div>
