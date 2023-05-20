@@ -16,11 +16,9 @@ export default function Home() {
         <div className="text-center p-10">
           <h2 className="text-5xl py-2 text-teal-600 font-medium">Andre Suarez Schou</h2>
           <h3 className="text-2xl py-2">web developer</h3>
-          <p className="text-md py-10 leading-10 text-gray-700">
+          <p className="text-lg py-10 leading-8 text-gray-700">
             I build web applications.
-            I was introduced to HTML, CSS, and the JavaScript library React by my school.
-          </p>
-          <p className="text-md py-10 leading-10 text-gray-700">  
+            I was introduced to HTML, CSS, and the JavaScript library React by my school. 
             I discovered the Next.js framework and tailwind CSS not so long ago.
             I want to keep improving and develop more applications in the future.
           </p>
