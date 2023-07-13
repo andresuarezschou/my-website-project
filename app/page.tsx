@@ -19,8 +19,10 @@ export default function Home() {
           <p className="text-lg py-10 leading-8 text-gray-700">
             I build web applications.
             I was introduced to HTML, CSS, and the JavaScript library React by my school. 
-            I discovered the Next.js framework and tailwind CSS not so long ago.
-            I want to keep improving and develop more applications in the future.
+            I use Next.js React framework and tailwind CSS.
+            I want to keep improving and develop applications in the future.
+            I am fascinated in how with the help of API's and software development kits we are able to create a webstore for instance.
+            
           </p>
           <div className="flex justify-center">
               <Lottie animationData={animationData} />
@@ -29,6 +31,7 @@ export default function Home() {
         <div className="text-3xl flex-col flex justify-center text-purple-800 p-10">
           <a href="https://musical-twilight-75b4a5.netlify.app/">size guide application</a>
           <a href="https://reliable-tulumba-787b60.netlify.app">food recipe application</a>
+          <a href="https://fancy-hamster-3f2a52.netlify.app/">food recipe application</a>
         </div>
         <div className="text-5xl flex justify-between py-5 text-blue-600">
           <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
