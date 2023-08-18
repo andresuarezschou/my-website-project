@@ -21,7 +21,7 @@ export default function Home() {
             I was introduced to HTML, CSS, and the JavaScript library React by my school. 
             I use Next.js React framework and tailwind CSS.
             I want to keep improving and develop applications in the future.
-            I am fascinated in how with the help of API's we are able to build more efficiently.
+            I am fascinated in how with the help of APIs we are able to build applications more efficiently.
             
           </p>
           <div className="flex justify-center">
@@ -31,7 +31,7 @@ export default function Home() {
         <div className="text-3xl flex-col flex justify-center text-purple-800 p-10">
           <a href="https://musical-twilight-75b4a5.netlify.app/">size guide application</a>
           <a href="https://reliable-tulumba-787b60.netlify.app">food recipe application</a>
-          <a href="https://fancy-hamster-3f2a52.netlify.app/">storefront commercejs</a>
+          <a href="https://glittering-faloodeh-0f2668.netlify.app/">storefront commercejs</a>
         </div>
         <div className="text-5xl flex justify-between py-5 text-blue-600">
           <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
