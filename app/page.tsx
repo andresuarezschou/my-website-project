@@ -21,7 +21,7 @@ export default function Home() {
             I was introduced to HTML, CSS, and the JavaScript library React by my school. 
             I use Next.js React framework and tailwind CSS.
             I want to keep improving and develop applications in the future.
-            I am fascinated in how with the help of API's and software development kits we are able to create a webstore for instance.
+            I am fascinated in how with the help of API's we are able to build more efficiently.
             
           </p>
           <div className="flex justify-center">
