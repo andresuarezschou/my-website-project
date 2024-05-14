@@ -14,7 +14,7 @@ export default function Home() {
         </nav>
         <div className="text-center p-10">
           <h2 className="text-5xl py-2 text-teal-600 font-medium">Andre Suarez Schou</h2>
-          <h3 className="text-2xl py-2">Multimedia Designer with interest in content creation and </h3>
+          <h3 className="text-2xl py-2">Multimedia Designer with interest in content creation and web development </h3>
           <p className="text-lg py-10 leading-8 text-gray-700">
             
             Multimediadesign International Bussiness Academy Kolding, Denmark. 
