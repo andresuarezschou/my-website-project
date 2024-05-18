@@ -28,10 +28,7 @@ export default function Home() {
         </div>
         <div className="text-3xl flex-col flex justify-center items-center text-purple-800 p-10">
           
-          <button class="bg-sky-500 hover:bg-sky-700 ...">
-            <a href="https://musical-twilight-75b4a5.netlify.app/"> size guide application internship </a>
-          </button>
-          
+          <a href="https://musical-twilight-75b4a5.netlify.app/"> size guide application internship </a>
           
           <a href="https://reliable-tulumba-787b60.netlify.app"> food recipe application web dev IBA </a>
           
