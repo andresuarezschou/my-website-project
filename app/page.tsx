@@ -31,7 +31,7 @@ export default function Home() {
           <a href="https://reliable-tulumba-787b60.netlify.app"> food recipe application web dev IBA </a>
           <a href="https://glittering-faloodeh-0f2668.netlify.app/"> storefront example using Commerce.js </a>
         </div>
-        <div className="text-5xl flex-col flex justify-center py-5 text-blue-600">
+        <div className="text-5xl flex justify-center py-5 text-blue-600">
           <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
           <a href="https://www.github.com/suarezschou"><AiFillGithub /></a>
         </div>
