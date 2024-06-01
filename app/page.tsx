@@ -19,7 +19,7 @@ export default function Home() {
             
             Multimediadesign International Bussiness Academy Kolding, Denmark. 
             HTML, CSS, Javascript.
-            Today I like to use the Next.js React framework and Tailwind CSS to be able to style very effectively and dont have to come up with class names in the CSS stylesheets.
+            Today I like to use the Next.js React framework and Tailwind CSS to be able to style very effectively and don't have to come up with class names in the CSS stylesheets.
             
           </p>
           <div className="flex justify-center">
