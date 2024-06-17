@@ -18,8 +18,7 @@ export default function Home() {
           <p className="text-lg py-10 leading-8 text-gray-700">
             
             Multimediadesign International Bussiness Academy Kolding, Denmark. 
-            HTML, CSS, Javascript.
-            Today I like to use the Next.js React framework and Tailwind CSS to be able to style very effectively and don't have to come up with class names in the CSS stylesheets.
+            HTML, CSS, Javascript. Beginner in C#
             
           </p>
           <div className="flex justify-center">
