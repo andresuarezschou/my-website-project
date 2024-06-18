@@ -10,14 +10,15 @@ export default function Home() {
     <main className="bg-white px-10">
       <section className="min-h-screen">
         <nav className="py-10 mb-12 flex justify-between">
-          <h1 className="text-xl text-rose-600">Portfolio website</h1>
+          <h1 className="text-xl text-teal-600">Portfolio website</h1>
         </nav>
         <div className="text-center p-10">
           <h2 className="text-5xl py-2 text-teal-600 font-medium">Andre Suarez Schou</h2>
-          <h3 className="text-2xl py-2 text-rose-600 decoration-double">Multimedia Designer with interest in content creation and web development </h3>
+          <h3 className="text-2xl py-2 text-rose-600 decoration-double">Multimedia Designer</h3>
           <p className="text-lg py-10 leading-8 text-gray-700">
             
-            Multimediadesign International Bussiness Academy Kolding, Denmark. 
+            Multimediadesign International Bussiness Academy Kolding, Denmark.
+            <br />
             HTML, CSS, Javascript. Beginner in C#
             
           </p>
