@@ -27,13 +27,17 @@ export default function Home() {
           </div>
         </div>
         <div className="text-3xl flex-col flex justify-center items-center text-purple-800 p-10">
-          
+        <ol>
+<li>
           <a href="https://musical-twilight-75b4a5.netlify.app/"> size guide application internship </a>
-          
+      </li>  
+<li>  
           <a href="https://reliable-tulumba-787b60.netlify.app"> food recipe application web dev IBA </a>
-          
+      </li>
+<li>
           <a href="https://glittering-faloodeh-0f2668.netlify.app/"> storefront example using Commerce.js </a>
-          
+</li>
+        </ol>
         </div>
         <div className="text-5xl flex justify-center py-5 text-blue-600">
           <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
