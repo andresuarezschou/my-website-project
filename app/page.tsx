@@ -26,19 +26,23 @@ export default function Home() {
               <Lottie animationData={animationData} />
           </div>
         </div>
-        <div className="text-3xl flex-col flex justify-center items-center text-purple-800 p-10">
-        <ol>
-<li>
+
+    <ol className="text-3xl flex-col flex justify-center items-center text-purple-800 p-10">
+      <li>
           <a href="https://musical-twilight-75b4a5.netlify.app/"> size guide application internship </a>
       </li>  
-<li>  
+      <li>  
           <a href="https://reliable-tulumba-787b60.netlify.app"> food recipe application web dev IBA </a>
       </li>
-<li>
+      <li>
           <a href="https://glittering-faloodeh-0f2668.netlify.app/"> storefront example using Commerce.js </a>
-</li>
-        </ol>
-        </div>
+      </li>
+    </ol>
+        
+    <div className="text-5xl flex justify-center py-5 text-blue-600">
+          <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
+          <a href="https://www.github.com/suarezschou"><AiFillGithub /></a>
+    </div>
       </section>
     </main>
   )
