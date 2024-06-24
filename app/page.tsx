@@ -22,6 +22,12 @@ export default function Home() {
             HTML, CSS, Javascript. Beginner in C#
             
           </p>
+
+          <div className="text-5xl flex justify-center py-5 text-blue-600">
+          <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
+          <a href="https://www.github.com/suarezschou"><AiFillGithub /></a>
+          </div>
+          
           <div className="flex justify-center">
               <Lottie animationData={animationData} />
           </div>
@@ -39,10 +45,6 @@ export default function Home() {
       </li>
     </ol>
         
-    <div className="text-5xl flex justify-center py-5 text-blue-600">
-          <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
-          <a href="https://www.github.com/suarezschou"><AiFillGithub /></a>
-    </div>
       </section>
     </main>
   )
