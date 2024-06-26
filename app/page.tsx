@@ -23,7 +23,7 @@ export default function Home() {
             
           </p>
 
-          <div className="text-5xl flex justify-center py-5 text-blue-600">
+          <div className="text-7xl flex justify-center py-5 text-blue-600">
           <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
           <a href="https://www.github.com/suarezschou"><AiFillGithub /></a>
           </div>
