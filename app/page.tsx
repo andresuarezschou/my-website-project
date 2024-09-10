@@ -6,11 +6,12 @@ import animationData from "../public/64110-web-development.json"
 import React from "react";
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { ModeToggle } from "@/components/theme/mode-toggle";
 
 export default function Home() {
   return (
     <main className="bg-background min-h-screen">
-      <section >
+      <section>
         <nav className="py-10 flex justify-between items-center px-12">
 
           <a href="#">      
@@ -20,15 +21,19 @@ export default function Home() {
             height={100}
             alt="Picture of the author"
             /></a>
-            <div className="text-7xl flex justify-center py-5 text-blue-600">
-          <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
-          <a href="https://www.github.com/suarezschou"><AiFillGithub /></a>
+          <div className="text-7xl flex justify-center py-5 text-blue-600">
+            <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
+            <a href="https://www.github.com/suarezschou"><AiFillGithub /></a>
           </div>
-          <Button>about</Button>
-          
-        </nav>
-      </section>
 
+          <Button>about</Button>
+        </nav>
+        
+        <div className="flex justify-center">
+        <ModeToggle/>
+        </div> 
+        
+      </section>
       <div className="text-center flex justify-center m-8">
 
             <Card className="w-full max-w-md">
