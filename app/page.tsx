@@ -72,6 +72,11 @@ export default function Home() {
                 description: "Using Commerce.js",
                 link: "https://glittering-faloodeh-0f2668.netlify.app/",
               },
+              {
+                title: "Image AI remove and replace background",
+                description: "Cloudinary",
+                link: "https://shiny-licorice-d30b8d.netlify.app/",
+              },
             ].map((project, index) => (
               <Card key={index}>
                 <CardHeader>
