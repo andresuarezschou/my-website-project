@@ -58,6 +58,16 @@ export default function Home() {
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[
               {
+                title: "Pong game",
+                description: "Small browser game",
+                link: "https://relaxed-kitten-f8ddbb.netlify.app/",
+              },
+              {
+                title: "Image AI remove and replace background",
+                description: "Cloudinary",
+                link: "https://shiny-licorice-d30b8d.netlify.app/",
+              },
+              {
                 title: "Size Guide Application",
                 description: "Internship project",
                 link: "https://musical-twilight-75b4a5.netlify.app/",
@@ -72,11 +82,7 @@ export default function Home() {
                 description: "Using Commerce.js",
                 link: "https://glittering-faloodeh-0f2668.netlify.app/",
               },
-              {
-                title: "Image AI remove and replace background",
-                description: "Cloudinary",
-                link: "https://shiny-licorice-d30b8d.netlify.app/",
-              },
+
             ].map((project, index) => (
               <Card key={index}>
                 <CardHeader>
