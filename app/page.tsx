@@ -56,7 +56,12 @@ export default function Home() {
         <section className="m-8">
           <h3 className="text-2xl font-bold text-primary mb-6 text-center">Projects</h3>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {[
+            {[              
+              {
+                title: "Pokemon finder",
+                description: "using pokeAPI REST",
+                link: "https://pokemon-data-find.netlify.app/",
+              },
               {
                 title: "Pong game",
                 description: "Small browser game",
