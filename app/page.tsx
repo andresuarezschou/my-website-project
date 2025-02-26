@@ -78,14 +78,14 @@ export default function Home() {
                 link: "https://musical-twilight-75b4a5.netlify.app/",
               },
               {
-                title: "Food Recipe Application",
+                title: "React Food Recipe Application",
                 description: "API assignment",
                 link: "https://reliable-tulumba-787b60.netlify.app",
               },
               {
-                title: "Storefront Example",
-                description: "Using Commerce.js",
-                link: "https://glittering-faloodeh-0f2668.netlify.app/",
+                title: "Webshop test example with commercetools",
+                description: "API and SDK from commercetools",
+                link: "https://my-commerce-test-app.netlify.app/",
               },
 
             ].map((project, index) => (
