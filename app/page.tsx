@@ -41,11 +41,37 @@ export default function Home() {
                 <CardTitle className="text-2xl">Skills</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside text-left">
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>React/JavaScript</li>
-                  <li>C# (Beginner)</li>
+                <ul className="flex justify-center gap-5">
+                  
+                    <Image
+                    src="/javascript.svg"
+                    alt="javascript-logo"
+                    width={200}
+                    height={200}
+                    />  
+                  
+                    <Image
+                    src="/react.svg"
+                    alt="react-logo"
+                    width={200}
+                    height={200}
+                    />
+                  
+                    <Image
+                    src="/html.svg"
+                    alt="html-logo"
+                    width={200}
+                    height={200}
+                    />
+                  
+                  
+                    <Image
+                    src="/css.svg"
+                    alt="css-logo"
+                    width={200}
+                    height={200}
+                    />
+                  
                 </ul>
                 <div className="flex justify-center">
                   <Lottie animationData={animationData} />
@@ -56,17 +82,17 @@ export default function Home() {
         <section className="m-8">
           <h3 className="text-2xl font-bold text-primary mb-6 text-center">Projects</h3>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {[              
+            {[   
               {
                 title: "Pokemon finder",
                 description: "using pokeAPI REST",
                 link: "https://pokemon-data-find.netlify.app/",
-              },
+              },  
               {
-                title: "Pong game",
-                description: "Small browser game",
-                link: "https://relaxed-kitten-f8ddbb.netlify.app/",
-              },
+                title: "Webshop test example with commercetools",
+                description: "API and SDK from commercetools",
+                link: "https://my-commerce-test-app.netlify.app/",
+              },            
               {
                 title: "Image AI remove and replace background",
                 description: "Cloudinary",
@@ -83,10 +109,11 @@ export default function Home() {
                 link: "https://reliable-tulumba-787b60.netlify.app",
               },
               {
-                title: "Webshop test example with commercetools",
-                description: "API and SDK from commercetools",
-                link: "https://my-commerce-test-app.netlify.app/",
+                title: "Pong game",
+                description: "Small browser game",
+                link: "https://relaxed-kitten-f8ddbb.netlify.app/",
               },
+              
 
             ].map((project, index) => (
               <Card key={index}>
