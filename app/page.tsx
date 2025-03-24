@@ -10,17 +10,16 @@ import { ModeToggle } from "@/components/theme/mode-toggle";
 
 export default function Home() {
   return (
-    
-      
         <nav className="py-10 flex justify-between items-center px-12">
-
           <a href="#">      
-          <Image className="rounded-full"
-            src="/logo.webp"
-            width={100}
-            height={100}
-            alt="Picture of the author"
-            /></a>
+            <Image className="rounded-full"
+              src="/logo.webp"
+              width={100}
+              height={100}
+              alt="Picture of the author"
+            />
+          </a>
+          
           <div className="text-7xl flex justify-center py-5 text-blue-600">
             <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
             <a href="https://www.github.com/suarezschou"><AiFillGithub /></a>
@@ -30,13 +29,15 @@ export default function Home() {
         </nav>
         
         <div className="flex justify-center">
-        <ModeToggle/>
+          <ModeToggle/>
         </div> 
         
 <div className="text-center flex justify-center m-8">
   <Card>
     <CardHeader>
-    <CardTitle className="text-2xl">Skills</CardTitle>
+    <CardTitle className="text-2xl">
+      Skills
+    </CardTitle>
     </CardHeader>
   <CardContent>
     <ul className="flex flex-col items-center gap-5">
@@ -70,7 +71,7 @@ export default function Home() {
 
 <div className="flex justify-center">
   <Lottie animationData={animationData} />
-  </div>
+</div>
   </CardContent>
   </Card>
 </div>
@@ -126,6 +127,5 @@ export default function Home() {
               </Card>
             ))}
           </div>
-            
      )
 }
