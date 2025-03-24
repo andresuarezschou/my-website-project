@@ -11,7 +11,7 @@ import { ModeToggle } from "@/components/theme/mode-toggle";
 export default function Home() {
   return (
     
-      <section>
+      <div>
         <nav className="py-10 flex justify-between items-center px-12">
 
           <a href="#">      
@@ -127,8 +127,6 @@ export default function Home() {
               </Card>
             ))}
           </div>
-        </section>
-      
-    </main>
-  )
+        </div>    
+     )
 }
