@@ -35,44 +35,47 @@ export default function Home() {
         
       </section>
       <div className="text-center flex justify-center m-8">
+<Card className="w-full max-w-md">
+  <CardHeader>
+    <CardTitle className="text-2xl">Skills</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <ul className="flex flex-col items-center gap-5">
+      <Image
+        src="/javascript.svg"
+        alt="javascript-logo"
+        width={200}
+        height={200}
+      />
+      <Image
+        src="/react.svg"
+        alt="react-logo"
+        width={200}
+        height={200}
+      />
+      <Image
+        src="/html.svg"
+        alt="html-logo"
+        width={200}
+        height={200}
+      />
+      <Image
+        src="/css.svg"
+        alt="css-logo"
+        width={200}
+        height={200}
+      />
+    </ul>
+  </CardContent>
+</Card>
+```
 
-            <Card className="w-full max-w-md">
-              <CardHeader>
-                <CardTitle className="text-2xl">Skills</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="flex justify-center gap-5">
-                  
-                    <Image
-                    src="/javascript.svg"
-                    alt="javascript-logo"
-                    width={200}
-                    height={200}
-                    />  
-                  
-                    <Image
-                    src="/react.svg"
-                    alt="react-logo"
-                    width={200}
-                    height={200}
-                    />
-                  
-                    <Image
-                    src="/html.svg"
-                    alt="html-logo"
-                    width={200}
-                    height={200}
-                    />
-                  
-                  
-                    <Image
-                    src="/css.svg"
-                    alt="css-logo"
-                    width={200}
-                    height={200}
-                    />
-                  
-                </ul>
+### Key Changes:
+1. **`flex-col`**: Ensures items are arranged vertically.
+2. **`items-center`**: Centers the items horizontally.
+3. **`gap-5`**: Maintains consistent spacing between the images.
+
+This should align your icons in a vertical stack. Let me know if you'd like additional customization!
                 <div className="flex justify-center">
                   <Lottie animationData={animationData} />
                 </div>
