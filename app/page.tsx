@@ -35,7 +35,7 @@ export default function Home() {
         
       </section>
       <div className="text-center flex justify-center m-8">
-<Card className="w-full max-w-md">
+<Card>
   <CardHeader>
     <CardTitle className="text-2xl">Skills</CardTitle>
   </CardHeader>
