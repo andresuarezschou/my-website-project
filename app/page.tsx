@@ -68,14 +68,7 @@ export default function Home() {
     </ul>
   </CardContent>
 </Card>
-```
 
-### Key Changes:
-1. **`flex-col`**: Ensures items are arranged vertically.
-2. **`items-center`**: Centers the items horizontally.
-3. **`gap-5`**: Maintains consistent spacing between the images.
-
-This should align your icons in a vertical stack. Let me know if you'd like additional customization!
                 <div className="flex justify-center">
                   <Lottie animationData={animationData} />
                 </div>
