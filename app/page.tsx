@@ -33,7 +33,7 @@ export default function Home() {
         <ModeToggle/>
         </div> 
         
-      </section>
+      
       <div className="text-center flex justify-center m-8">
 <Card>
   <CardHeader>
@@ -75,7 +75,7 @@ export default function Home() {
               </CardContent>
             </Card>
       </div>
-        <section className="m-8">
+        
           <h3 className="text-2xl font-bold text-primary mb-6 text-center">Projects</h3>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {[   
