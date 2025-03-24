@@ -11,7 +11,7 @@ import { ModeToggle } from "@/components/theme/mode-toggle";
 export default function Home() {
   return (
     
-      <div>
+      
         <nav className="py-10 flex justify-between items-center px-12">
 
           <a href="#">      
@@ -33,12 +33,11 @@ export default function Home() {
         <ModeToggle/>
         </div> 
         
-      
-      <div className="text-center flex justify-center m-8">
-<Card>
-  <CardHeader>
+<div className="text-center flex justify-center m-8">
+  <Card>
+    <CardHeader>
     <CardTitle className="text-2xl">Skills</CardTitle>
-  </CardHeader>
+    </CardHeader>
   <CardContent>
     <ul className="flex flex-col items-center gap-5">
       <Image
@@ -69,12 +68,12 @@ export default function Home() {
   </CardContent>
 </Card>
 
-                <div className="flex justify-center">
-                  <Lottie animationData={animationData} />
-                </div>
-              </CardContent>
-            </Card>
-      </div>
+<div className="flex justify-center">
+  <Lottie animationData={animationData} />
+  </div>
+  </CardContent>
+  </Card>
+</div>
         
           <h3 className="text-2xl font-bold text-primary mb-6 text-center">Projects</h3>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -127,6 +126,6 @@ export default function Home() {
               </Card>
             ))}
           </div>
-        </div>    
+            
      )
 }
