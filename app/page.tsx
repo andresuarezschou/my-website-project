@@ -10,7 +10,7 @@ import { ModeToggle } from "@/components/theme/mode-toggle";
 
 export default function Home() {
   return (
-    <main className="bg-background min-h-screen">
+    
       <section>
         <nav className="py-10 flex justify-between items-center px-12">
 
