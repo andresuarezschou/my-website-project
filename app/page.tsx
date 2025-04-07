@@ -73,7 +73,11 @@ export default function Home() {
           </CardContent>
         </Card>
 
-      </div><h3 className="text-2xl font-bold text-primary mb-6 text-center">Projects</h3><div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      </div>
+      <h3 className="text-2xl font-bold text-primary mb-6 text-center">
+        Projects
+      </h3>
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 p-5">
         {[
           {
             title: "Webshop test example with commercetools",
