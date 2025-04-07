@@ -12,7 +12,7 @@ export default function Home() {
   return (
   <>
     <nav className="py-10 flex initial items-center px-12">
-      <div className="flex-1 text-9xl flex justify-center space-x-5 py-5 text-blue-600">
+      <div className="flex-1 text-xl flex justify-center space-x-5 py-5 text-blue-600">
         <a href="https://www.github.com/suarezschou"><AiFillGithub /></a>
         <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
       </div>
@@ -58,10 +58,10 @@ export default function Home() {
                   Seeking opportunities to contribute to impactful web projects.
                 </li>
                 <li>
-                  with a drive for creating seamless user experiences through intuitive design and functionality.
+                  Interest in creating seamless UX through intuitive design and functionality.
                 </li>
                 <li>
-                  Currently immersed in learning the intricacies of building a complete e-commerce platform.
+                  Currently immersed in learning how to build a complete web shop solution.
                 </li>
               </ol>
               
