@@ -13,9 +13,9 @@ export function ModeToggle() {
     const { setTheme } = useTheme()
   
     return (
-      <DropdownMenu>
+      <DropdownMenu >
         <DropdownMenuTrigger asChild>
-          <Button variant="outline" size="icon">
+          <Button variant="outline" size="lg">
             <Sun />
             <Moon />
           </Button>
