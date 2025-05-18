@@ -80,6 +80,11 @@ export default function Home() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 p-5">
         {[
           {
+            title: "aoe2 inspired board game",
+            description: "turn based strategy browser game",
+            link: "https://aoe2-board-game.netlify.app/",
+          },
+          {
             title: "Webshop test example with commercetools",
             description: "API and SDK from commercetools",
             link: "https://my-commerce-test-app.netlify.app/",
