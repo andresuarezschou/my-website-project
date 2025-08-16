@@ -60,9 +60,7 @@ export default function Home() {
                 <li>
                   Interest in creating seamless UX through intuitive design and functionality.
                 </li>
-                <li>
-                  Currently immersed in learning how to build a complete web shop solution.
-                </li>
+                
               </ol>
               
 
@@ -80,17 +78,6 @@ export default function Home() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 p-5">
         {[
           {
-            title: "aoe2 inspired board game",
-            description: "turn based strategy browser game",
-            link: "https://aoe2-board-game.netlify.app/",
-          },
-          {
-            title: "Webshop test example with commercetools",
-            description: "API and SDK from commercetools",
-            link: "https://my-commerce-test-app.netlify.app/",
-          },
-
-          {
             title: "Pokemon finder",
             description: "using pokeAPI REST",
             link: "https://pokemon-data-find.netlify.app/",
@@ -104,16 +91,6 @@ export default function Home() {
             title: "Size Guide Application",
             description: "Internship project",
             link: "https://musical-twilight-75b4a5.netlify.app/",
-          },
-          {
-            title: "React Food Recipe Application",
-            description: "API assignment",
-            link: "https://reliable-tulumba-787b60.netlify.app",
-          },
-          {
-            title: "Pong game",
-            description: "Small browser game",
-            link: "https://relaxed-kitten-f8ddbb.netlify.app/",
           },
         ].map((project, index) => (
           <Card key={index}>
