@@ -52,13 +52,13 @@ export default function Home() {
                 height={200} />
               <ol className="text-left text-lg list-disc list-inside">
                 <li>
-                  Web developer coding dynamic and responsive web applications.
+                  Web developer coding responsive web applications.
                 </li>
                 <li>
-                  Seeking opportunities to contribute to impactful web projects.
+                  Seeking opportunities to contribute to web projects.
                 </li>
                 <li>
-                  Interest in creating seamless UX through intuitive design and functionality.
+                  UX through intuitive design and functionality.
                 </li>
                 
               </ol>
@@ -79,7 +79,7 @@ export default function Home() {
         {[
           {
             title: "Webshop example",
-            description: "I am utilizing these tools: Strapi CMS, Neon serverless database and Render for cloud deployment of strapi backend",
+            description: "I am utilizing these tools: Strapi CMS, Neon serverless database, Render for cloud deployment of strapi backend and Cloudinary for image storage and persistence",
             link:"https://andresuarezschou-webshop.netlify.app/",
           },
           {
