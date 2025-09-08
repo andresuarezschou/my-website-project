@@ -78,6 +78,11 @@ export default function Home() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 p-5">
         {[
           {
+            title: "webshop example"
+            description: "I am utilizing these tools: Strapi CMS, Neon serverless database and Render for cloud deployment of strapi backend"
+            link:"https://andresuarezschou-webshop.netlify.app/",
+          },
+          {
             title: "Pokemon finder",
             description: "using pokeAPI REST",
             link: "https://pokemon-data-find.netlify.app/",
