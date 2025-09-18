@@ -79,7 +79,7 @@ export default function Home() {
         {[
           {
             title: "Webshop example",
-            description: "I am utilizing these tools: Strapi CMS, Neon serverless database, Render for cloud deployment of strapi backend and Cloudinary for image storage and persistence",
+            description: "I am utilizing these tools: Strapi CMS, Neon serverless database, Render for cloud deployment of strapi backend and Cloudinary for image storage and persistence. This application is hosted on Render's free plan. The server may take a few seconds to start up due to inactivity.",
             link:"https://andresuarezschou-webshop.netlify.app/",
           },
           {
