@@ -116,7 +116,7 @@ export default function Home() {
           },
           {
             title: "Image AI remove and replace background",
-            description: "Cloudinary",
+            description: "Cloudinary AI API, Zod schema validation + Zustand state management",
             link: "https://shiny-licorice-d30b8d.netlify.app/",
             github: 'https://github.com/andresuarezschou/photoai',
 
