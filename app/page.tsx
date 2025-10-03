@@ -35,13 +35,21 @@ export default function Home() {
     </div>
 
     {/* Primary CTA */}
-    <div className="flex justify-center space-x-4">
-        <Button size="lg" onClick={() => document.getElementById('projects-section').scrollIntoView({ behavior: 'smooth' })}>
-            View Projects
-        </Button>
-        <Button variant="outline" size="lg" asChild>
-            <a href="/multimedia design cvresume web dev.pdf" download>Download Resume</a>
-        </Button>
+  <div className="flex justify-center space-x-4">
+   <Button
+          size="lg"
+          onClick={() => {
+            const projectSection = document.getElementById('projects-section');
+            if (projectSection) {
+              projectSection.scrollIntoView({ behavior: 'smooth' });
+          }
+      }}
+  >
+      View Projects
+    </Button>      
+    <Button variant="outline" size="lg" asChild>
+          <a href="/multimedia design cvresume web dev.pdf" download>Download Resume</a>
+    </Button>
     </div>
 </section>
     <nav className="py-10 flex initial items-center px-12">
