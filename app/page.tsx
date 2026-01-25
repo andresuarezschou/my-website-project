@@ -48,7 +48,7 @@ export default function Home() {
       View Projects
     </Button>      
     <Button variant="outline" size="lg" asChild>
-          <a href="/multimedia design cvresume web dev.pdf" download>Download Resume</a>
+          <a href="/multimedia design cvresume web dev-3.pdf" download>Download Resume</a>
     </Button>
     </div>
 </section>
