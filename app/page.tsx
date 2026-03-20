@@ -35,7 +35,7 @@ export default function Home() {
     </div>
 
     {/* Primary CTA */}
-  <div className="flex justify-center space-x-4">
+  <div className="flex flex-wrap justify-center gap-4 px-4">
    <Button
           size="lg"
           onClick={() => {
@@ -135,7 +135,7 @@ export default function Home() {
             <CardContent>
               <p className="text-muted-foreground mb-4">{project.description}</p>
 
-            <div className="space-x-5">
+            <div className="flex flex-wrap gap-3">
               <Button asChild>
                 <Link href={project.link} target="_blank" rel="noopener noreferrer">
                   View Project
