@@ -55,7 +55,7 @@ export default function Home() {
     <nav className="py-10 flex initial items-center px-12">
       <div className="flex-1 text-7xl flex justify-center space-x-5 text-blue-600">
         <a href="https://www.github.com/andresuarezschou"><AiFillGithub /></a>
-        <a href="https://www.linkedin.com/in/andre-suarez-schou/"><AiFillLinkedin /></a>
+        <a href="https://www.linkedin.com/in/andresuarezschou/"><AiFillLinkedin /></a>
       </div>
     </nav>
 
