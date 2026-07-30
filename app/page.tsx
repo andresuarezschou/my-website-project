@@ -100,6 +100,13 @@ export default function Home() {
       </h3>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 p-5">
         {[
+           {
+            title: "Weather app",
+            description: "weather application",
+            link:"https://fanciful-druid-a7ca7e.netlify.app/",
+            github: 'https://github.com/andresuarezschou/weather-app',
+            
+          },
           {
             title: "Hnefatafl board game",
             description: "ancient strategy board game",
