@@ -100,6 +100,14 @@ export default function Home() {
       </h3>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 p-5">
         {[
+  
+          {
+            title: "Webshop example",
+            description: "I am utilizing these tools: Strapi CMS, Neon serverless database, Render for cloud deployment of strapi backend and Cloudinary for image storage and persistence. This application is hosted on Render's free plan. The server may take a few seconds to start up due to inactivity.",
+            link:"https://andresuarezschou-webshop.netlify.app/",
+            github: 'https://github.com/andresuarezschou/my-webshop-app',
+            
+          },
            {
             title: "Weather app",
             description: "weather application",
@@ -113,13 +121,6 @@ export default function Home() {
             link:"https://hnefatafl-game.netlify.app/",
             github: 'https://github.com/andresuarezschou/hnefatafl-game',
             
-          },
-          {
-            title: "Webshop example",
-            description: "I am utilizing these tools: Strapi CMS, Neon serverless database, Render for cloud deployment of strapi backend and Cloudinary for image storage and persistence. This application is hosted on Render's free plan. The server may take a few seconds to start up due to inactivity.",
-            link:"https://andresuarezschou-webshop.netlify.app/",
-            github: 'https://github.com/andresuarezschou/my-webshop-app',
-
           },
           {
             title: "Pokemon finder",
@@ -141,6 +142,7 @@ export default function Home() {
             link: "https://musical-twilight-75b4a5.netlify.app/",           
             github: 'https://github.com/suarezschou/my-sizeguide-application',
           },
+  
         ].map((project, index) => (
           <Card key={index}>
             <CardHeader>
