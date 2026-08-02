@@ -7,17 +7,19 @@ export const metadata = {
   description: 'includes projects and resume',
 }
 
-const chango = Chango({ subsets: ['latin'] })
+const chango = Chango({ 
+  subsets: ['latin'],
+  weight: '400',
+})
 
 export default function RootLayout({ 
   children,
- }:Readonly <{
+}: Readonly<{
   children: React.ReactNode;
-   }>) {
+}>) {
   return (
-      <html lang="en">
+      <html lang="en" suppressHydrationWarning>
         <body className={chango.className}>
-
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -27,6 +29,5 @@ export default function RootLayout({
           </ThemeProvider>
       </body>
       </html>
-    
   )
 }
