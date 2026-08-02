@@ -1,6 +1,6 @@
 import { ThemeProvider } from "@/components/theme/theme-provider"
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Chango } from 'next/font/google'
 
 export const metadata = {
   title: 'Personal portfolio website',
