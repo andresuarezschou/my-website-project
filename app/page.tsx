@@ -100,7 +100,13 @@ export default function Home() {
       </h3>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 p-5">
         {[
-  
+          {
+            title: "themoviedb API",
+            description: "fetches movie data using async/await",
+            link:"https://tmdb-andre.netlify.app/",
+            github: 'https://github.com/andresuarezschou/callback_vue',
+            
+          },
           {
             title: "Webshop example",
             description: "I am utilizing these tools: Strapi CMS, Neon serverless database, Render for cloud deployment of strapi backend and Cloudinary for image storage and persistence. This application is hosted on Render's free plan. The server may take a few seconds to start up due to inactivity.",
