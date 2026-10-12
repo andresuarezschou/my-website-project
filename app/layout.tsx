@@ -1,10 +1,11 @@
 import { ThemeProvider } from "@/components/theme/theme-provider"
 import './globals.css'
 import { Chango } from 'next/font/google'
+import { Providers } from "./providers";
 
 export const metadata = {
-  title: 'Personal portfolio website',
-  description: 'includes projects and resume',
+  title: 'Andre Suarez Schou',
+  description: 'personal portfolio website',
 }
 
 const chango = Chango({ 
@@ -25,9 +26,11 @@ export default function RootLayout({
             defaultTheme="system"
             enableSystem
           >
-            {children}
+            <Providers>
+              {children}
+            </Providers>
           </ThemeProvider>
-      </body>
+        </body>
       </html>
   )
 }
